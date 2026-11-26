@@ -236,19 +236,16 @@
   let map, tiles, routeLayer, stopLayer, detailLayer;
   const stopMarkers = {};
 
-  function tileUrl() {
-    const dark = matchMedia('(prefers-color-scheme: dark)').matches;
-    return `https://{s}.basemaps.cartocdn.com/${dark ? 'dark_all' : 'rastertiles/voyager'}/{z}/{x}/{y}{r}.png`;
-  }
+  const TILE_URL = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
   function cssVar(n) { return getComputedStyle(document.documentElement).getPropertyValue(n).trim(); }
 
   function initMap() {
     map = L.map('map', { zoomControl: true, attributionControl: true, worldCopyJump: false });
-    tiles = L.tileLayer(tileUrl(), {
-      maxZoom: 18, subdomains: 'abcd',
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    tiles = L.tileLayer(TILE_URL, {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     }).addTo(map);
-    matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => { tiles.setUrl(tileUrl()); drawRoute(); });
+    matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => drawRoute());
     routeLayer = L.layerGroup().addTo(map);
     stopLayer = L.layerGroup().addTo(map);
     detailLayer = L.layerGroup().addTo(map);

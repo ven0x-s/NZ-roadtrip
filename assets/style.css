@@ -244,6 +244,9 @@ input:focus, textarea:focus, select:focus { outline: 2px solid var(--doc); outli
 .cmk.geboekt { border-color: var(--ok); background: var(--ok); }
 .cmk.geboekt::after { background: #fff; }
 .leaflet-tooltip { font: 12.5px var(--f-body); }
+@media (prefers-color-scheme: dark) {
+  .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) brightness(.9) contrast(.9) saturate(.6); }
+}
 .leaflet-container { font: 13px var(--f-body); }
 
 /* Dialog */
