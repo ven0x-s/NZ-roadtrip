@@ -1,0 +1,418 @@
+{
+ "tekapo": {
+  "notes": "",
+  "links": [],
+  "campings": [
+   {
+    "id": "c-tekapo-hp",
+    "name": "Lake Tekapo Holiday Park",
+    "url": "",
+    "note": "Direct aan het meer",
+    "status": "idee",
+    "lat": -44.0068,
+    "lng": 170.4703,
+    "added": "2026-11-26",
+    "by": "voorstel"
+   }
+  ]
+ },
+ "mount-cook": {
+  "notes": "",
+  "links": [],
+  "campings": [
+   {
+    "id": "c-whitehorse",
+    "name": "White Horse Hill Campsite (DOC)",
+    "url": "",
+    "note": "Aan de start van de Hooker Valley Track; online boeken",
+    "status": "idee",
+    "lat": -43.7186,
+    "lng": 170.0937,
+    "added": "2026-11-26",
+    "by": "voorstel"
+   }
+  ]
+ },
+ "dunedin": {
+  "notes": "",
+  "links": [],
+  "campings": [
+   {
+    "id": "c-dunedin-hp",
+    "name": "Dunedin Holiday Park (St Kilda)",
+    "url": "",
+    "note": "Centraal, vlak bij het strand",
+    "status": "idee",
+    "lat": -45.9118,
+    "lng": 170.4985,
+    "added": "2026-11-26",
+    "by": "voorstel"
+   }
+  ]
+ },
+ "curio-bay": {
+  "notes": "",
+  "links": [],
+  "campings": [
+   {
+    "id": "c-curio",
+    "name": "Curio Bay Campground",
+    "url": "https://park4night.com/it/place/606947",
+    "note": "Eenvoudige voorzieningen, onovertroffen ligging; ca. $45 tot $55",
+    "status": "idee",
+    "lat": -46.6617,
+    "lng": 169.1016,
+    "added": "2026-11-26",
+    "by": "voorstel"
+   },
+   {
+    "id": "c-frog",
+    "name": "Whistling Frog Resort",
+    "url": "",
+    "note": "Ca. 20 min van Curio Bay, stroom, moderne faciliteiten en een café",
+    "status": "idee",
+    "lat": -46.59,
+    "lng": 169.38,
+    "added": "2026-11-26",
+    "by": "voorstel"
+   }
+  ]
+ },
+ "cascade-creek": {
+  "notes": "",
+  "links": [],
+  "campings": [
+   {
+    "id": "c-cascade",
+    "name": "Cascade Creek Campsite (DOC)",
+    "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/things-to-do/campsites/cascade-creek-campsite",
+    "note": "Ca. $18 p.p., geschikt voor grote voertuigen, vooraf online boeken",
+    "status": "idee",
+    "lat": -44.8942,
+    "lng": 168.0753,
+    "added": "2026-11-26",
+    "by": "voorstel"
+   },
+   {
+    "id": "c-kiosk",
+    "name": "Kiosk Creek Campsite (DOC)",
+    "url": "https://doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/things-to-do/campsites/kiosk-creek-campsite",
+    "note": "Bij Knobs Flat, iets dichter bij Te Anau; eigen drinkwater meenemen",
+    "status": "idee",
+    "lat": -44.9629,
+    "lng": 168.0188,
+    "added": "2026-11-26",
+    "by": "voorstel"
+   }
+  ]
+ },
+ "te-anau": {
+  "notes": "",
+  "links": [],
+  "campings": [
+   {
+    "id": "c-teanau-lv",
+    "name": "Te Anau Lakeview Holiday Park",
+    "url": "",
+    "note": "Weer douche en stroom na de DOC nacht",
+    "status": "idee",
+    "lat": -45.4211,
+    "lng": 167.7106,
+    "added": "2026-11-26",
+    "by": "voorstel"
+   }
+  ]
+ },
+ "queenstown": {
+  "notes": "",
+  "links": [],
+  "campings": [
+   {
+    "id": "c-qt-lv",
+    "name": "Queenstown Lakeview Holiday Park",
+    "url": "",
+    "note": "Op loopafstand van het centrum",
+    "status": "idee",
+    "lat": -45.0302,
+    "lng": 168.6562,
+    "added": "2026-11-26",
+    "by": "voorstel"
+   }
+  ]
+ },
+ "wanaka": {
+  "notes": "",
+  "links": [],
+  "campings": [
+   {
+    "id": "c-outlet",
+    "name": "Outlet Camp Wānaka",
+    "url": "https://www.newzealand.com/au/plan/business/lake-outlet-holiday-park/",
+    "note": "Kanuka struiken tussen de plekken, meer om de hoek",
+    "status": "idee",
+    "lat": -44.6788,
+    "lng": 169.154,
+    "added": "2026-11-26",
+    "by": "voorstel"
+   },
+   {
+    "id": "c-wanaka-top10",
+    "name": "Wanaka TOP 10 Holiday Park",
+    "url": "",
+    "note": "Centraler, met spa en sauna en pendelauto naar het dorp",
+    "status": "idee",
+    "lat": -44.689,
+    "lng": 169.153,
+    "added": "2026-11-26",
+    "by": "voorstel"
+   }
+  ]
+ },
+ "franz-josef": {
+  "notes": "",
+  "links": [],
+  "campings": [
+   {
+    "id": "c-fj-top10",
+    "name": "Franz Josef TOP 10 Holiday Park",
+    "url": "",
+    "note": "Comfortabel na een lange rijdag",
+    "status": "idee",
+    "lat": -43.381,
+    "lng": 170.184,
+    "added": "2026-11-26",
+    "by": "voorstel"
+   }
+  ]
+ },
+ "punakaiki": {
+  "notes": "",
+  "links": [],
+  "campings": [
+   {
+    "id": "c-puna",
+    "name": "Punakaiki Beach Camp",
+    "url": "",
+    "note": "Op loopafstand van de Pancake Rocks",
+    "status": "idee",
+    "lat": -42.106,
+    "lng": 171.3365,
+    "added": "2026-11-26",
+    "by": "voorstel"
+   }
+  ]
+ },
+ "marahau": {
+  "notes": "",
+  "links": [],
+  "campings": [
+   {
+    "id": "c-marahau",
+    "name": "Marahau Beach Camp",
+    "url": "https://www.abeltasman.com/marahau-beach-camp/",
+    "note": "Naast vertrekpunt watertaxi en kajak, café aan het water",
+    "status": "idee",
+    "lat": -41.0006,
+    "lng": 173.0074,
+    "added": "2026-11-26",
+    "by": "voorstel"
+   }
+  ]
+ },
+ "picton": {
+  "notes": "",
+  "links": [],
+  "campings": [
+   {
+    "id": "c-picton-top10",
+    "name": "Picton TOP 10 (Tasman Holiday Parks)",
+    "url": "https://MarlboroughNZ.com/live-listings/picton-top-10-holiday-park/",
+    "note": "Verwarmd zwembad en hot tub, 3 min naar de ferry; powered sealed plek",
+    "status": "favoriet",
+    "lat": -41.2873,
+    "lng": 174.013,
+    "added": "2026-11-26",
+    "by": "voorstel"
+   },
+   {
+    "id": "c-picton-cvp",
+    "name": "Picton Campervan Park",
+    "url": "https://www.newzealand.com/uk/plan/business/picton-campervan-park/",
+    "note": "Dichtst bij de ferry, heel schone douches, wel geluid van vrachtverkeer",
+    "status": "idee",
+    "lat": -41.293,
+    "lng": 174.003,
+    "added": "2026-11-26",
+    "by": "voorstel"
+   },
+   {
+    "id": "c-waikawa",
+    "name": "Waikawa Bay Holiday Park",
+    "url": "https://book.marlboroughnz.com/Waikawa-Bay-Holiday-Park",
+    "note": "Rustig familiepark met zwembad, ca. 7 min van de ferry",
+    "status": "idee",
+    "lat": -41.27,
+    "lng": 174.042,
+    "added": "2026-11-26",
+    "by": "voorstel"
+   },
+   {
+    "id": "c-parklands",
+    "name": "Parklands Marina Holiday Park",
+    "url": "https://book.marlboroughnz.com/Parklands-Marina-Holiday-Park",
+    "note": "Ruim en open, minder dan 10 min van de terminals",
+    "status": "idee",
+    "lat": -41.2715,
+    "lng": 174.046,
+    "added": "2026-11-26",
+    "by": "voorstel"
+   },
+   {
+    "id": "c-momorangi",
+    "name": "Momorangi Bay (DOC)",
+    "url": "",
+    "note": "Direct aan het water langs de Queen Charlotte Drive, ca. 20 min naar de ferry",
+    "status": "idee",
+    "lat": -41.248,
+    "lng": 173.915,
+    "added": "2026-11-26",
+    "by": "voorstel"
+   }
+  ]
+ },
+ "wellington": {
+  "notes": "",
+  "links": [],
+  "campings": [
+   {
+    "id": "c-evans",
+    "name": "Evans Bay Marina parkeerplaats",
+    "url": "https://www.rankers.co.nz/experiences/6919-Evans_Bay_Marina_Carpark_Wellington_Overnight_Campervan_Parking",
+    "note": "Overnachten voor self contained campers, dicht bij de stad",
+    "status": "idee",
+    "lat": -41.304,
+    "lng": 174.803,
+    "added": "2026-11-26",
+    "by": "voorstel"
+   },
+   {
+    "id": "c-wlg-top10",
+    "name": "Wellington TOP 10 Holiday Park (Lower Hutt)",
+    "url": "https://top10.co.nz/park/Wellington-top-10-holiday-park",
+    "note": "Volledige camping, ca. 20 min buiten de stad",
+    "status": "idee",
+    "lat": -41.234,
+    "lng": 174.901,
+    "added": "2026-11-26",
+    "by": "voorstel"
+   }
+  ]
+ },
+ "tongariro": {
+  "notes": "",
+  "links": [],
+  "campings": [
+   {
+    "id": "c-whakapapa",
+    "name": "Whakapapa Holiday Park",
+    "url": "https://doc.govt.nz/parks-and-recreation/places-to-go/central-north-island/places/tongariro-national-park/things-to-do/campsites/whakapapa-holiday-park",
+    "note": "In Whakapapa Village, startpunt voor wandelingen",
+    "status": "idee",
+    "lat": -39.2005,
+    "lng": 175.542,
+    "added": "2026-11-26",
+    "by": "voorstel"
+   },
+   {
+    "id": "c-mangahuia",
+    "name": "Mangahuia Campsite (DOC)",
+    "url": "https://www.doc.govt.nz/mangahuia-campsite",
+    "note": "Eenvoudige DOC camping tussen National Park en Whakapapa",
+    "status": "idee",
+    "lat": -39.153,
+    "lng": 175.472,
+    "added": "2026-11-26",
+    "by": "voorstel"
+   }
+  ]
+ },
+ "taupo": {
+  "notes": "",
+  "links": [],
+  "campings": [
+   {
+    "id": "c-debretts",
+    "name": "Taupō DeBretts Spa Resort",
+    "url": "",
+    "note": "Camping met warmwaterbaden; nog niet gecheckt",
+    "status": "idee",
+    "lat": -38.705,
+    "lng": 176.092,
+    "added": "2026-11-26",
+    "by": "voorstel"
+   }
+  ]
+ },
+ "rotorua": {
+  "notes": "",
+  "links": [],
+  "campings": [
+   {
+    "id": "c-rotorua-top10",
+    "name": "Rotorua TOP 10 Holiday Park",
+    "url": "",
+    "note": "Dicht bij het centrum; nog niet gecheckt",
+    "status": "idee",
+    "lat": -38.136,
+    "lng": 176.242,
+    "added": "2026-11-26",
+    "by": "voorstel"
+   },
+   {
+    "id": "c-bluelake",
+    "name": "Blue Lake TOP 10 Holiday Park",
+    "url": "",
+    "note": "Aan het meer, rustiger; nog niet gecheckt",
+    "status": "idee",
+    "lat": -38.196,
+    "lng": 176.3285,
+    "added": "2026-11-26",
+    "by": "voorstel"
+   }
+  ]
+ },
+ "hahei": {
+  "notes": "",
+  "links": [],
+  "campings": [
+   {
+    "id": "c-hahei",
+    "name": "Tasman Holiday Parks Hahei Beach",
+    "url": "https://tasmanholidayparks.com/nz/hahei-beach/",
+    "note": "Aan het strand, dicht bij Cathedral Cove",
+    "status": "idee",
+    "lat": -36.84,
+    "lng": 175.8,
+    "added": "2026-11-26",
+    "by": "voorstel"
+   }
+  ]
+ },
+ "whangarei-heads": {
+  "notes": "",
+  "links": [],
+  "campings": [
+   {
+    "id": "c-oceanbeach",
+    "name": "Ocean Beach parkeerplaats",
+    "url": "https://www.rankers.co.nz/experiences/9891-Ocean_Beach_Carpark_Whangarei_Overnight_Campervan_Parking",
+    "note": "Overnachten voor self contained campers, aan het strand",
+    "status": "idee",
+    "lat": -35.8465,
+    "lng": 174.564,
+    "added": "2026-11-26",
+    "by": "voorstel"
+   }
+  ]
+ }
+}

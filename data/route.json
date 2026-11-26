@@ -1,0 +1,242 @@
+{
+  "title": "Nieuw-Zeeland per camper",
+  "year": 2027,
+  "islands": {
+    "zuid": { "name": "Zuidereiland", "maori": "Te Waipounamu" },
+    "noord": { "name": "Noordereiland", "maori": "Te Ika-a-Māui" }
+  },
+  "ferry": {
+    "date": "2027-03-20",
+    "name": "Interislander Picton naar Wellington",
+    "info": "Om 8:30 bij de terminal, vaart 9:30 tot 13:00",
+    "from": [-41.2829, 174.0047],
+    "to": [-41.2785, 174.7810]
+  },
+  "stops": [
+    {
+      "id": "christchurch", "island": "zuid", "name": "Christchurch",
+      "from": "2027-02-27", "to": "2027-03-01", "nights": 2,
+      "arrive": "Landen 27 feb om 10:40 (SQ297 uit Singapore)",
+      "sleep": "Carnmore Hotel Christchurch",
+      "lat": -43.5321, "lng": 172.6362,
+      "activities": [
+        { "id": "chc-gardens", "name": "Christchurch Botanic Gardens", "lat": -43.5309, "lng": 172.6206, "tip": "Rustige wandeling tegen de jetlag" },
+        { "id": "chc-camper", "name": "Camper ophalen (1 mrt)", "lat": -43.4894, "lng": 172.5322, "tip": "Daarna meteen grote boodschappen doen" }
+      ]
+    },
+    {
+      "id": "tekapo", "island": "zuid", "name": "Lake Tekapo",
+      "from": "2027-03-01", "to": "2027-03-02", "nights": 1,
+      "arrive": "Ca. 3 u rijden vanaf Christchurch",
+      "lat": -44.0046, "lng": 170.4774,
+      "activities": [
+        { "id": "tek-church", "name": "Church of the Good Shepherd", "lat": -44.0045, "lng": 170.48, "tip": "Mooiste licht bij zonsondergang" },
+        { "id": "tek-john", "name": "Mount John Observatory", "lat": -43.9856, "lng": 170.4651, "tip": "Uitzicht over het meer, 's avonds sterrentour" }
+      ]
+    },
+    {
+      "id": "mount-cook", "island": "zuid", "name": "Aoraki / Mount Cook",
+      "from": "2027-03-02", "to": "2027-03-03", "nights": 1,
+      "arrive": "Ca. 1¼ u rijden",
+      "lat": -43.7340, "lng": 170.0960,
+      "activities": [
+        { "id": "mc-pukaki", "name": "Lake Pukaki uitzichtpunt", "lat": -44.188, "lng": 170.147, "tip": "Turquoise meer met Mount Cook erachter" },
+        { "id": "mc-hooker", "name": "Hooker Valley Track", "lat": -43.695, "lng": 170.103, "tip": "Ca. 3 uur retour, vroeg of laat het rustigst" }
+      ]
+    },
+    {
+      "id": "dunedin", "island": "zuid", "name": "Dunedin",
+      "from": "2027-03-03", "to": "2027-03-05", "nights": 2,
+      "arrive": "Ca. 4½ u rijden via de kust",
+      "lat": -45.8788, "lng": 170.5028,
+      "activities": [
+        { "id": "dun-oamaru", "name": "Oamaru", "lat": -45.1011, "lng": 170.9715, "tip": "Lunch in het Victoriaanse centrum" },
+        { "id": "dun-moeraki", "name": "Moeraki Boulders", "lat": -45.3451, "lng": 170.8269, "tip": "Het mooist bij laagwater" },
+        { "id": "dun-larnach", "name": "Larnach Castle", "lat": -45.8613, "lng": 170.6283, "tip": "Kasteel met tuinen op de Otago Peninsula" },
+        { "id": "dun-albatross", "name": "Royal Albatross Centre", "lat": -45.7746, "lng": 170.7272, "tip": "Albatrossen en pinguïns" },
+        { "id": "dun-tunnel", "name": "Tunnel Beach", "lat": -45.9208, "lng": 170.4589, "tip": "Korte steile wandeling langs de kliffen" }
+      ]
+    },
+    {
+      "id": "curio-bay", "island": "zuid", "name": "The Catlins / Curio Bay",
+      "from": "2027-03-05", "to": "2027-03-06", "nights": 1,
+      "arrive": "Ca. 2½ u rijden, plus stops",
+      "lat": -46.6617, "lng": 169.1016,
+      "activities": [
+        { "id": "cat-nugget", "name": "Nugget Point", "lat": -46.4466, "lng": 169.815, "tip": "Vuurtoren en zeeleeuwen" },
+        { "id": "cat-purakaunui", "name": "Purakaunui Falls", "lat": -46.5508, "lng": 169.5936, "tip": "Korte bosroute naar de waterval" },
+        { "id": "cat-mclean", "name": "McLean Falls", "lat": -46.5805, "lng": 169.3735, "tip": "Ca. 40 minuten retour" },
+        { "id": "cat-curio", "name": "Curio Bay en Porpoise Bay", "lat": -46.6630, "lng": 169.1060, "tip": "Versteend woud, kans op dolfijnen en pinguïns" }
+      ]
+    },
+    {
+      "id": "cascade-creek", "island": "zuid", "name": "Milford Road (Cascade Creek)",
+      "from": "2027-03-06", "to": "2027-03-07", "nights": 1,
+      "arrive": "Ca. 4 u rijden via Te Anau; daar tanken en boodschappen",
+      "lat": -44.8942, "lng": 168.0753,
+      "activities": [
+        { "id": "mil-mirror", "name": "Mirror Lakes", "lat": -45.03, "lng": 168.005, "tip": "Spiegeling van de bergen" },
+        { "id": "mil-gunn", "name": "Lake Gunn Nature Walk", "lat": -44.8890, "lng": 168.0790, "tip": "Vlak, 45 minuten, start bij de camping" }
+      ]
+    },
+    {
+      "id": "te-anau", "island": "zuid", "name": "Te Anau",
+      "from": "2027-03-07", "to": "2027-03-09", "nights": 2,
+      "arrive": "Eerst 1 u naar Milford Sound, daarna 2 u terug",
+      "lat": -45.4145, "lng": 167.7181,
+      "activities": [
+        { "id": "ta-homer", "name": "Homer Tunnel", "lat": -44.7663, "lng": 168.0835, "tip": "Let op de kea's bij de tunnel" },
+        { "id": "ta-milford", "name": "Milford Sound boottocht", "lat": -44.6417, "lng": 167.8974, "tip": "Vroege boot, voor de touringcars uit Queenstown" },
+        { "id": "ta-glow", "name": "Te Anau Glowworm Caves", "lat": -45.3640, "lng": 167.6890, "tip": "Met de boot over het meer naar de grot" }
+      ]
+    },
+    {
+      "id": "queenstown", "island": "zuid", "name": "Queenstown",
+      "from": "2027-03-09", "to": "2027-03-12", "nights": 3,
+      "arrive": "Ca. 2 u rijden",
+      "lat": -45.0312, "lng": 168.6626,
+      "activities": [
+        { "id": "qt-glenorchy", "name": "Glenorchy", "lat": -44.8519, "lng": 168.3879, "tip": "Mooiste rit van de regio, ga 's ochtends" },
+        { "id": "qt-skyline", "name": "Skyline gondel, Bob's Peak", "lat": -45.028, "lng": 168.651, "tip": "Uitzicht over de stad, zonsondergang" },
+        { "id": "qt-lomond", "name": "Ben Lomond Track", "lat": -45.0060, "lng": 168.6350, "tip": "Hike naar de top, reken op ca. 8 uur" },
+        { "id": "qt-skippers", "name": "Skippers Road (alleen met 4WD tour)", "lat": -44.9400, "lng": 168.6500, "tip": "Met de camper verboden, wel als georganiseerde tour" }
+      ]
+    },
+    {
+      "id": "wanaka", "island": "zuid", "name": "Wānaka",
+      "from": "2027-03-12", "to": "2027-03-14", "nights": 2,
+      "arrive": "Ca. 1¼ u via de Crown Range",
+      "lat": -44.6982, "lng": 169.1350,
+      "activities": [
+        { "id": "wa-arrow", "name": "Arrowtown", "lat": -44.9416, "lng": 168.8317, "tip": "Goudzoekersdorp, koffie onderweg" },
+        { "id": "wa-cardrona", "name": "Cardrona Hotel", "lat": -44.8737, "lng": 169.008, "tip": "Stop over de Crown Range" },
+        { "id": "wa-tree", "name": "That Wanaka Tree", "lat": -44.6988, "lng": 169.1325, "tip": "Bij zonsondergang" },
+        { "id": "wa-roys", "name": "Roys Peak Track", "lat": -44.70, "lng": 169.072, "tip": "Vroeg starten, 5 tot 6 uur retour" }
+      ]
+    },
+    {
+      "id": "franz-josef", "island": "zuid", "name": "Franz Josef",
+      "from": "2027-03-14", "to": "2027-03-15", "nights": 1,
+      "arrive": "Ca. 4 u over de Haast Pass; tank vol in Wanaka",
+      "lat": -43.3890, "lng": 170.1820,
+      "activities": [
+        { "id": "fj-blue", "name": "Blue Pools", "lat": -44.1586, "lng": 169.2734, "tip": "Helderblauw water, korte wandeling" },
+        { "id": "fj-thunder", "name": "Thunder Creek Falls", "lat": -44.059, "lng": 169.37, "tip": "Korte stop langs de weg" },
+        { "id": "fj-matheson", "name": "Lake Matheson", "lat": -43.4413, "lng": 169.964, "tip": "Spiegelmeer, mooist zonder wind" },
+        { "id": "fj-glacier", "name": "Franz Josef Glacier Walk", "lat": -43.4182, "lng": 170.179, "tip": "Vroege wandeling naar de gletsjer" }
+      ]
+    },
+    {
+      "id": "punakaiki", "island": "zuid", "name": "Punakaiki",
+      "from": "2027-03-15", "to": "2027-03-16", "nights": 1,
+      "arrive": "Ca. 3½ u langs de westkust",
+      "lat": -42.1110, "lng": 171.3330,
+      "activities": [
+        { "id": "pk-hokitika", "name": "Hokitika Gorge", "lat": -42.9582, "lng": 171.0089, "tip": "Turquoise rivier en hangbrug" },
+        { "id": "pk-pancake", "name": "Pancake Rocks and Blowholes", "lat": -42.1137, "lng": 171.3269, "tip": "Ga bij vloed voor de blowholes" }
+      ]
+    },
+    {
+      "id": "marahau", "island": "zuid", "name": "Abel Tasman (Mārahau)",
+      "from": "2027-03-16", "to": "2027-03-18", "nights": 2,
+      "arrive": "Ca. 4½ u via de Buller Gorge",
+      "lat": -41.0006, "lng": 173.0074,
+      "activities": [
+        { "id": "at-walk", "name": "Watertaxi naar Anchorage, terugwandelen", "lat": -40.958, "lng": 173.058, "tip": "Klassieke dag in het park" },
+        { "id": "at-kayak", "name": "Kajakken bij Split Apple Rock", "lat": -41.031, "lng": 173.04, "tip": "Halve of hele dag" },
+        { "id": "at-kaiteriteri", "name": "Kaiteriteri Beach", "lat": -41.0386, "lng": 173.0187, "tip": "Goudgeel strand" }
+      ]
+    },
+    {
+      "id": "picton", "island": "zuid", "name": "Picton",
+      "from": "2027-03-18", "to": "2027-03-20", "nights": 2,
+      "arrive": "Ca. 2¾ u via Nelson en de Queen Charlotte Drive",
+      "lat": -41.2906, "lng": 174.0010,
+      "activities": [
+        { "id": "pi-pelorus", "name": "Pelorus Bridge", "lat": -41.295, "lng": 173.575, "tip": "Zwemmen in de rivier" },
+        { "id": "pi-havelock", "name": "Havelock", "lat": -41.281, "lng": 173.767, "tip": "Groenlipmosselen, begin Queen Charlotte Drive" },
+        { "id": "pi-shipcove", "name": "Boottocht naar Ship Cove", "lat": -41.097, "lng": 174.237, "tip": "Stuk Queen Charlotte Track teruglopen" },
+        { "id": "pi-tirohanga", "name": "Tirohanga Track", "lat": -41.292, "lng": 174.006, "tip": "Uitkijkpunt boven Picton, ca. 1½ uur" }
+      ]
+    },
+    {
+      "id": "wellington", "island": "noord", "name": "Wellington",
+      "from": "2027-03-20", "to": "2027-03-21", "nights": 1,
+      "arrive": "Ferry 9:30 tot 13:00 vanuit Picton",
+      "lat": -41.2865, "lng": 174.7762,
+      "activities": [
+        { "id": "wl-tepapa", "name": "Te Papa museum", "lat": -41.2905, "lng": 174.7820, "tip": "Gratis toegang, mooi bij regen" },
+        { "id": "wl-cable", "name": "Wellington Cable Car", "lat": -41.2853, "lng": 174.7746, "tip": "Naar de botanische tuin" },
+        { "id": "wl-victoria", "name": "Mount Victoria Lookout", "lat": -41.2963, "lng": 174.7944, "tip": "Uitzicht over stad en haven" }
+      ]
+    },
+    {
+      "id": "tongariro", "island": "noord", "name": "Tongariro National Park",
+      "from": "2027-03-21", "to": "2027-03-23", "nights": 2,
+      "arrive": "Ca. 4 u rijden",
+      "lat": -39.2005, "lng": 175.5420,
+      "activities": [
+        { "id": "tg-crossing", "name": "Tongariro Alpine Crossing", "lat": -39.1360, "lng": 175.6560, "tip": "Dagtocht van ca. 19 km, Lord of the Rings decor; shuttle vooraf boeken" },
+        { "id": "tg-taranaki", "name": "Taranaki Falls", "lat": -39.2220, "lng": 175.5660, "tip": "Korte wandeling vanaf Whakapapa" },
+        { "id": "tg-forgotten", "name": "Forgotten World Adventures", "lat": -38.8840, "lng": 175.2620, "tip": "Railcarts over oude spoorlijn, start in Taumarunui" }
+      ]
+    },
+    {
+      "id": "taupo", "island": "noord", "name": "Taupō",
+      "from": "2027-03-23", "to": "2027-03-25", "nights": 2,
+      "arrive": "Ca. 1¼ u rijden",
+      "lat": -38.6857, "lng": 176.0702,
+      "activities": [
+        { "id": "tp-huka", "name": "Huka Falls", "lat": -38.6487, "lng": 176.0898, "tip": "Krachtige waterval vlak bij het dorp" },
+        { "id": "tp-craters", "name": "Craters of the Moon", "lat": -38.6580, "lng": 176.0771, "tip": "Dampende geothermische wandeling" },
+        { "id": "tp-minebay", "name": "Cruise of kajak naar Mine Bay", "lat": -38.8100, "lng": 175.9300, "tip": "Māori rotstekeningen op Lake Taupō" }
+      ]
+    },
+    {
+      "id": "rotorua", "island": "noord", "name": "Rotorua",
+      "from": "2027-03-25", "to": "2027-03-28", "nights": 3,
+      "arrive": "Ca. 1 u rijden",
+      "lat": -38.1368, "lng": 176.2497,
+      "activities": [
+        { "id": "ro-zip", "name": "Ziplinen (Rotorua Canopy Tours)", "lat": -38.1230, "lng": 176.3040, "tip": "Door oud inheems bos" },
+        { "id": "ro-maori", "name": "Māori cultural experience", "lat": -38.1660, "lng": 176.2600, "tip": "Avondprogramma met hāngi diner" },
+        { "id": "ro-kayak", "name": "Kajaktour Lake Rotoiti", "lat": -38.0400, "lng": 176.4300, "tip": "Naar warmwaterbronnen aan het meer" },
+        { "id": "ro-redwoods", "name": "Redwoods Treewalk", "lat": -38.1590, "lng": 176.2730, "tip": "Hangbruggen tussen de sequoia's, mooi in het donker" }
+      ]
+    },
+    {
+      "id": "hahei", "island": "noord", "name": "Coromandel (Hahei)",
+      "from": "2027-03-28", "to": "2027-03-31", "nights": 3,
+      "arrive": "Ca. 3 u rijden",
+      "lat": -36.8400, "lng": 175.8000,
+      "activities": [
+        { "id": "co-cathedral", "name": "Cathedral Cove", "lat": -36.8278, "lng": 175.7905, "tip": "Wandelen of per boot of kajak" },
+        { "id": "co-hotwater", "name": "Hot Water Beach", "lat": -36.8886, "lng": 175.8233, "tip": "Rond laagwater je eigen bad graven" },
+        { "id": "co-309", "name": "309 Road en Waiau Falls", "lat": -36.8000, "lng": 175.5800, "tip": "Grindweg door het binnenland, check of de camper mag" }
+      ]
+    },
+    {
+      "id": "whangarei-heads", "island": "noord", "name": "Whangārei Heads",
+      "from": "2027-03-31", "to": "2027-04-02", "nights": 2,
+      "arrive": "Ca. 4 u rijden, om Auckland heen",
+      "lat": -35.8460, "lng": 174.5300,
+      "activities": [
+        { "id": "wh-tewhara", "name": "Te Whara Track (Bream Head)", "lat": -35.8558, "lng": 174.5794, "tip": "Pittige kustwandeling met uitzicht op de Hen and Chickens eilanden" },
+        { "id": "wh-ocean", "name": "Ocean Beach", "lat": -35.8460, "lng": 174.5640, "tip": "Lang surfstrand" },
+        { "id": "wh-falls", "name": "Whangārei Falls", "lat": -35.6930, "lng": 174.3330, "tip": "Korte stop op weg naar Auckland" }
+      ]
+    },
+    {
+      "id": "auckland", "island": "noord", "name": "Auckland",
+      "from": "2027-04-02", "to": "2027-04-04", "nights": 2,
+      "arrive": "Ca. 2½ u rijden; camper inleveren op 2 apr",
+      "sleep": "Hotel Grand Chancellor",
+      "lat": -36.8485, "lng": 174.7633,
+      "activities": [
+        { "id": "ak-return", "name": "Camper inleveren (2 apr)", "lat": -37.0000, "lng": 174.8000, "tip": "Check het precieze adres bij de verhuurder" },
+        { "id": "ak-sky", "name": "Sky Tower en Viaduct Harbour", "lat": -36.8484, "lng": 174.7622, "tip": "Laatste avond in Nieuw-Zeeland" },
+        { "id": "ak-flight", "name": "Vlucht naar Sydney (4 apr)", "lat": -37.0082, "lng": 174.7850, "tip": "11:30 tot 13:10, Vibe Hotel Sydney" }
+      ]
+    }
+  ]
+}

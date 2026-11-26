@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nieuw-Zeeland per camper</title>
+<meta name="description" content="Camperroute over het Zuidereiland en Noordereiland, maart 2027, met notities, video's en campings per stop.">
+<meta name="theme-color" content="#2e5b3c">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%232e5b3c'/%3E%3Cpath d='M7 23l6-11 4 7 3-4 5 8z' fill='%23f3c533'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="top-inner">
+    <div class="brand">
+      <span class="sign" aria-hidden="true">NZ</span>
+      <div>
+        <h1>Nieuw-Zeeland per camper</h1>
+        <p class="sub" id="sub">27 februari tot 4 april 2027</p>
+      </div>
+    </div>
+    <div class="top-actions">
+      <div class="seg" role="group" aria-label="Kies eiland">
+        <button type="button" data-island="zuid" aria-pressed="true">Zuidereiland</button>
+        <button type="button" data-island="noord" aria-pressed="false">Noordereiland</button>
+        <button type="button" data-island="alles" aria-pressed="false">Alles</button>
+      </div>
+      <button type="button" class="btn-edit" id="btnSettings" aria-haspopup="dialog">
+        <span class="dot" aria-hidden="true"></span><span id="editLabel">Alleen lezen</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main class="layout">
+  <section class="mapwrap" aria-label="Kaart">
+    <div id="map"></div>
+    <div class="pickbar" id="pickbar" hidden>
+      <span>Tik op de kaart om de camping te plaatsen</span>
+      <button type="button" id="pickCancel">Annuleren</button>
+    </div>
+    <p class="mapnote">Lijnen tonen de volgorde, niet de exacte weg</p>
+  </section>
+  <aside class="panel" id="panel" aria-live="polite">
+    <p class="loading">Route laden…</p>
+  </aside>
+</main>
+
+<dialog id="settings" aria-labelledby="setTitle">
+  <form method="dialog" class="dlg" id="settingsForm">
+    <h2 id="setTitle">Bewerken op dit apparaat</h2>
+    <p>Notities, video's en campings worden opgeslagen in <code id="repoName">ven0x-s/NZ-roadtrip</code> op GitHub. Daarvoor heeft dit apparaat eenmalig een persoonlijke GitHub sleutel nodig. Die blijft alleen in deze browser bewaard.</p>
+    <ol class="steps">
+      <li>Open <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com/settings/personal-access-tokens/new</a>.</li>
+      <li>Geef hem een naam, bijvoorbeeld <em>NZ site</em>, en een vervaldatum na de reis.</li>
+      <li>Bij <strong>Repository access</strong>: kies <em>Only select repositories</em> en dan <em>NZ-roadtrip</em>.</li>
+      <li>Bij <strong>Permissions</strong>, <em>Repository permissions</em>: zet <em>Contents</em> op <em>Read and write</em>.</li>
+      <li>Klik <em>Generate token</em> en plak hem hieronder.</li>
+    </ol>
+    <label for="tokenInput">GitHub sleutel</label>
+    <input id="tokenInput" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…">
+    <p class="dlg-status" id="tokenStatus" role="status"></p>
+    <div class="dlg-actions">
+      <button type="button" class="ghost" id="tokenRemove">Sleutel verwijderen</button>
+      <span class="grow"></span>
+      <button type="button" class="ghost" id="dlgClose">Sluiten</button>
+      <button type="button" class="primary" id="tokenSave">Testen en bewaren</button>
+    </div>
+  </form>
+</dialog>
+
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
